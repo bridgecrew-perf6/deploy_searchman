@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    border: none;
+    border-bottom: 1px gray solid;
+    padding-bottom: 10px;
+   
+   
+}
+
+.SearchIconDiv{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  /*   background-color: rebeccapurple; */
+  
+  margin-top: 5px;
+}
+.BlackBlock{
+    background-color: black;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+    margin-top: 5px;
+    
+}
+
+
+.BlackBlock img{
+    
+    color: white;
+    width: 0.8rem;
+    
+}
+.Searchdiv{
+    width: 90%;
+/*     background-color: beige; */
+    display: flex;
+    justify-content: center;
+
+   
+}
+.Searchdiv label{
+
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 5px;
+   /*  margin-left: 9.5em; */
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+
+@media (min-width:819px) {
+
+    .Searchdiv label{
+
+    
+        
+        margin-left: 80px;
+    
+    }
+    
+}
